@@ -18,7 +18,7 @@ const FormOne = () => {
         </div>
         <div className="mb-3">
           <label htmlFor="age" className="form-label">Age</label>
-          <input onChange={(event) => setPerson({...person, age: parseInt(event.target.value)})} value={person.age} id="age" type="number" className="form-control" />
+          <input onChange={(event) => setPerson({...person, age: event.target.value})} value={person.age} id="age" type="number" className="form-control" />
         </div>
         <button className="btn btn-primary" type="submit">Submit</button>
       </form>
