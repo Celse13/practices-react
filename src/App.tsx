@@ -1,13 +1,14 @@
 
 import './App.css'
-import Form from './components/Practice/Form'
+import FormOne from './components/Practice/FormOne'
+
 
 function App() {
 
 
   return (
     <>
-     <Form />
+     <FormOne />
     </>
   )
 }
