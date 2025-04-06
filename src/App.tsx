@@ -1,6 +1,7 @@
 
 import './App.css'
-import FormOne from './components/Practice/FormOne'
+import FormTwo from './components/Practice/FormTwo'
+
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-     <FormOne />
+     <FormTwo />
     </>
   )
 }
